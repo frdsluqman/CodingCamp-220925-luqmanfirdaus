@@ -1,5 +1,5 @@
-// let welcome = prompt('Enter your name :')
-// document.querySelector('#welcome').innerText = welcome
+let welcome = prompt('Enter your name :')
+document.querySelector('#welcome').innerText = welcome
 
 // get navbar class
 const navbarNav = document.querySelector('.navbar-nav');
