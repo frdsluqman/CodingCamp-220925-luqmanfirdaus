@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Icons -->
+     <script src="https://unpkg.com/feather-icons"></script>
+    <title>Luqman Firdaus - MiniPortfolio</title>
+</head>
+<body>
+    
+    <!-- Navbar Start -->
+     <nav class="navbar">
+        <a href="#" class="navbar-logo">man<span>design</span>.</a>
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#about-us">About Us</a>
+            <a href="#product">Our Product</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+        <div class="navbar-icon">
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+     </nav>
+    <!-- Navbar End -->
+
+     <!-- Content Start -->
+     <section class="content" id="home">
+        <main class="main">
+            <h1>Hallo</h1>
+            <h1>Selamat Datang <span id="welcome">Luqman Firdaus</span></h1>
+            <p>Discover the best products we offer to make your life easier.
+            <br>
+            Don't Miss Out! Special Limited-Time Promo Just For You!</p>
+        </main>
+     </section>
+     <!-- Content End -->
+    
+     <!-- Section About Start -->
+      <section id="about-us" class="about">
+        <h2>About Us</h2>
+
+        <div class="row">
+            <div class="about-img">
+                <img src="/assets/hero6.jpg" alt="About Us">
+            </div>
+            <div class="about-content">
+                <h3>Why should you choose us?</h3>
+                <p>Mandesign is a local brand operating in the creative industry, focusing on the design and production of clothing that keeps pace with the times. We offer a variety of clothing designs tailored to your needs and utilize high-quality materials. Based on customer testimonials, our designs and quality rival those of international brands. We can also provide advice on your desired design and clothing needs.</p>
+            </div>
+        </div>
+      </section>
+     <!-- Section About End-->
+
+     <!-- Section Product Start -->
+      <section id="product" class="product">
+        <h2>Our Products</h2>
+        <p>"Appear confident with the latest fashion collections that are always updated."
+        <br>
+        "Premium quality material that is comfortable to wear all day without feeling hot."
+        <br>
+        "Exclusive designs that you won't find anywhere else."
+        <br>
+        "The latest model that is going viral among celebrities and influencers."
+        <br>
+        "Environmentally friendly material made from high quality organic fiber."
+        </p>
+
+        <div class="row">
+            <div class="product-card">
+                <img class="product-img" src="/assets/product1.jpeg" alt="Product 1">
+                <h3 class="product-title">Simple design with white color</h3>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="/assets/product2.jpeg" alt="Product 1">
+                <h3 class="product-title">Simple design with black color</h3>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="/assets/product3.jpeg" alt="Product 1">
+                <h3 class="product-title">Simple design with dark blue color</h3>
+            </div>
+        </div>
+      </section>
+     <!-- Section Product End -->
+
+      
+
+      <!-- Section Contact Start -->
+       <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Please contact us using the information below for ordering information, feedback, and suggestions. Your feedback and suggestions are invaluable to our future development.</p>
+
+        <div class="row">
+            <form action="" onsubmit="event.preventDefault(); validateForm()">
+                <div class="input">
+                    <i data-feather="user"></i>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <p class="error"></p>
+                <div class="input">
+                    <i data-feather="mail"></i>
+                    <input type="text" id="mail" placeholder="Enter your email">
+                    
+                </div>
+                <p class="error"></p>
+                <div class="input">
+                    <i data-feather="phone"></i>
+                    <input type="number" id="number" placeholder="Enter your phone number">
+                    
+                </div>
+                <p class="error"></p>
+                <div class="input">
+                    <i data-feather="message-square"></i>
+                    <textarea id="message" placeholder="Enter your message" rows="6"></textarea>
+                    
+                </div>
+                <p class="error"></p>
+                <button type="submit" class="button">Send</button>
+                <p id="success" class="success"></p>
+            </form>
+        </div>
+       </section>
+      <!-- Section Contact End -->
+    
+    <!-- JS For Icons -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- JS File -->
+     <script src="/js/script.js"></script>
+</body>
+</html>
