@@ -79,7 +79,7 @@ body {
 
 /* Content Home */
 .content {
-    background-image: url('/assets/hero.jpg');
+    background-image: url('./assets/hero.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
